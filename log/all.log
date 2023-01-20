@@ -1,0 +1,29 @@
+2023-01-20 08:39:20:3920 info: App listening at http://localhost:8000
+2023-01-20 08:39:25:3925 http: ::1 GET / 304 - - 57.773 ms
+
+2023-01-20 08:55:20:5520 info: App listening at http://localhost:8000
+2023-01-20 08:55:24:5524 http: ::1 GET / 304 - - 24.625 ms
+
+2023-01-20 08:56:33:5633 http: ::1 GET /inicio 200 1831 - 6.480 ms
+
+2023-01-20 08:56:34:5634 http: ::1 GET /controle?comprimento=5&largura=5 304 - - 2.749 ms
+
+2023-01-20 08:56:47:5647 info: Movement saved: 4 4 E M
+2023-01-20 08:56:47:5647 http: ::1 POST /movement 200 233 - 92.529 ms
+
+2023-01-20 08:56:47:5647 info: Movement saved: 4 4 E M
+2023-01-20 08:56:47:5647 http: ::1 POST /movement 200 233 - 58.298 ms
+
+2023-01-20 08:57:23:5723 info: App listening at http://localhost:8000
+2023-01-20 08:57:23:5723 http: ::ffff:127.0.0.1 GET /controle?comprimento=5&largura=5 200 2332 - 14.901 ms
+
+2023-01-20 08:57:32:5732 info: Movement saved: 4 4 E M
+2023-01-20 08:57:32:5732 http: ::ffff:127.0.0.1 POST /movement 200 233 - 87.296 ms
+
+2023-01-20 08:57:32:5732 info: Movement saved: 4 4 E M
+2023-01-20 08:57:32:5732 http: ::ffff:127.0.0.1 POST /movement 200 233 - 62.485 ms
+
+2023-01-20 08:57:32:5732 info: Movement saved: 4 4 E undefined
+2023-01-20 08:57:32:5732 http: ::ffff:127.0.0.1 POST /movement 200 212 - 321.983 ms
+
+2023-01-20 09:50:28:5028 info: App listening at http://localhost:8000

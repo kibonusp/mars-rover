@@ -131,7 +131,7 @@ class Rover {
                 direction = 'h';
                 break;
         }
-        if ((finalPosIndex[0] < 0 || finalPosIndex[0] >= largura) || (finalPosIndex[1] < 0 || finalPosIndex[0] >= comprimento)) {
+        if ((finalPosIndex[0] < 0 || finalPosIndex[0] >= largura) || (finalPosIndex[1] < 0 || finalPosIndex[1] >= comprimento)) {
             console.log('Unable to make this movement');
             return;
         }

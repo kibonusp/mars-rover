@@ -1,0 +1,13 @@
+{
+    "include": [
+      "controllers",
+      "log",
+      "models",
+      ".env",
+      "package.json",
+      "public",
+      "routes",
+      "views",
+      "app.js"
+    ]
+  }
