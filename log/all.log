@@ -1,0 +1,122 @@
+2023-01-19 23:56:31:5631 [32minfo[39m: [32mApp listening at http://localhost:8000[39m
+2023-01-19 23:56:39:5639 [35mhttp[39m: [35m::1 GET / 304 - - 20.658 ms[39m
+[35m[39m
+2023-01-19 23:56:53:5653 [35mhttp[39m: [35m::1 GET /inicio 304 - - 2.473 ms[39m
+[35m[39m
+2023-01-19 23:56:55:5655 [35mhttp[39m: [35m::1 GET /controle?comprimento=5&largura=5 304 - - 3.410 ms[39m
+[35m[39m
+2023-01-19 23:57:41:5741 [32minfo[39m: [32mApp listening at http://localhost:8000[39m
+2023-01-19 23:58:19:5819 [32minfo[39m: [32mApp listening at http://localhost:8000[39m
+2023-01-19 23:58:19:5819 [35mhttp[39m: [35m::ffff:127.0.0.1 GET /controle?comprimento=5&largura=5 304 - - 16.835 ms[39m
+[35m[39m
+2023-01-19 23:58:22:5822 [35mhttp[39m: [35m::ffff:127.0.0.1 GET /controle?comprimento=5&largura=5 304 - - 5.201 ms[39m
+[35m[39m
+2023-01-19 23:58:32:5832 [32minfo[39m: [32mApp listening at http://localhost:8000[39m
+2023-01-19 23:58:32:5832 [35mhttp[39m: [35m::1 GET /controle?comprimento=5&largura=5 304 - - 17.600 ms[39m
+[35m[39m
+2023-01-19 23:59:02:592 [32minfo[39m: [32mMovement saved: 1 2 N L[39m
+2023-01-19 23:59:02:592 [35mhttp[39m: [35m::ffff:127.0.0.1 POST /movement 200 184 - 93.952 ms[39m
+[35m[39m
+2023-01-19 23:59:03:593 [32minfo[39m: [32mMovement saved: 1 2 W M[39m
+2023-01-19 23:59:03:593 [35mhttp[39m: [35m::ffff:127.0.0.1 POST /movement 200 184 - 56.470 ms[39m
+[35m[39m
+2023-01-19 23:59:04:594 [32minfo[39m: [32mMovement saved: 1 1 W M[39m
+2023-01-19 23:59:04:594 [35mhttp[39m: [35m::ffff:127.0.0.1 POST /movement 200 184 - 60.474 ms[39m
+[35m[39m
+2023-01-19 23:59:05:595 [32minfo[39m: [32mMovement saved: 1 0 W R[39m
+2023-01-19 23:59:05:595 [35mhttp[39m: [35m::ffff:127.0.0.1 POST /movement 200 184 - 58.209 ms[39m
+[35m[39m
+2023-01-19 23:59:06:596 [32minfo[39m: [32mMovement saved: 1 0 N L[39m
+2023-01-19 23:59:06:596 [35mhttp[39m: [35m::ffff:127.0.0.1 POST /movement 200 184 - 59.403 ms[39m
+[35m[39m
+2023-01-19 23:59:07:597 [32minfo[39m: [32mMovement saved: 1 0 W undefined[39m
+2023-01-19 23:59:07:597 [35mhttp[39m: [35m::ffff:127.0.0.1 POST /movement 200 163 - 55.442 ms[39m
+[35m[39m
+2023-01-19 23:59:13:5913 [32minfo[39m: [32mMovement saved: 1 0 W M[39m
+2023-01-19 23:59:13:5913 [35mhttp[39m: [35m::1 POST /movement 200 184 - 56.889 ms[39m
+[35m[39m
+2023-01-19 23:59:14:5914 [32minfo[39m: [32mMovement saved: 1 0 W undefined[39m
+2023-01-19 23:59:14:5914 [35mhttp[39m: [35m::1 POST /movement 200 163 - 60.730 ms[39m
+[35m[39m
+2023-01-20 00:08:26:826 [32minfo[39m: [32mApp listening at http://localhost:8000[39m
+2023-01-20 00:08:31:831 [35mhttp[39m: [35m::1 GET / 304 - - 23.763 ms[39m
+[35m[39m
+2023-01-20 00:08:38:838 [35mhttp[39m: [35m::1 GET /inicio 304 - - 4.522 ms[39m
+[35m[39m
+2023-01-20 00:08:39:839 [35mhttp[39m: [35m::1 GET /controle?comprimento=5&largura=5 304 - - 3.664 ms[39m
+[35m[39m
+2023-01-20 00:09:05:95 [32minfo[39m: [32mMovement saved: 1 2 S R[39m
+2023-01-20 00:09:05:95 [35mhttp[39m: [35m::1 POST /movement 200 184 - 175.824 ms[39m
+[35m[39m
+2023-01-20 00:09:06:96 [32minfo[39m: [32mMovement saved: 1 2 W M[39m
+2023-01-20 00:09:06:96 [35mhttp[39m: [35m::1 POST /movement 200 184 - 50.529 ms[39m
+[35m[39m
+2023-01-20 00:09:08:98 [32minfo[39m: [32mMovement saved: 1 1 W M[39m
+2023-01-20 00:09:08:98 [35mhttp[39m: [35m::1 POST /movement 200 184 - 55.600 ms[39m
+[35m[39m
+2023-01-20 00:09:10:910 [32minfo[39m: [32mMovement saved: 1 0 W L[39m
+2023-01-20 00:09:10:910 [35mhttp[39m: [35m::1 POST /movement 200 184 - 55.657 ms[39m
+[35m[39m
+2023-01-20 00:09:11:911 [32minfo[39m: [32mMovement saved: 1 0 S M[39m
+2023-01-20 00:09:11:911 [35mhttp[39m: [35m::1 POST /movement 200 184 - 55.823 ms[39m
+[35m[39m
+2023-01-20 00:09:12:912 [32minfo[39m: [32mMovement saved: 2 0 S M[39m
+2023-01-20 00:09:12:912 [35mhttp[39m: [35m::1 POST /movement 200 184 - 56.893 ms[39m
+[35m[39m
+2023-01-20 00:09:13:913 [32minfo[39m: [32mMovement saved: 3 0 S L[39m
+2023-01-20 00:09:13:913 [35mhttp[39m: [35m::1 POST /movement 200 184 - 72.044 ms[39m
+[35m[39m
+2023-01-20 00:09:14:914 [32minfo[39m: [32mMovement saved: 3 0 E M[39m
+2023-01-20 00:09:14:914 [35mhttp[39m: [35m::1 POST /movement 200 184 - 55.851 ms[39m
+[35m[39m
+2023-01-20 00:09:16:916 [32minfo[39m: [32mMovement saved: 3 1 E M[39m
+2023-01-20 00:09:16:916 [35mhttp[39m: [35m::1 POST /movement 200 184 - 55.544 ms[39m
+[35m[39m
+2023-01-20 00:09:18:918 [32minfo[39m: [32mMovement saved: 3 2 E undefined[39m
+2023-01-20 00:09:18:918 [35mhttp[39m: [35m::1 POST /movement 200 163 - 60.946 ms[39m
+[35m[39m
+2023-01-20 00:10:04:104 [32minfo[39m: [32mApp listening at http://localhost:8000[39m
+2023-01-20 00:10:45:1045 [32minfo[39m: [32mApp listening at http://localhost:8000[39m
+2023-01-20 00:10:54:1054 [32minfo[39m: [32mApp listening at http://localhost:8000[39m
+2023-01-20 00:12:54:1254 [32minfo[39m: [32mMovement saved: 3 2 E R[39m
+2023-01-20 00:12:54:1254 [35mhttp[39m: [35m::1 POST /movement 200 233 - 117.155 ms[39m
+[35m[39m
+2023-01-20 00:12:55:1255 [32minfo[39m: [32mMovement saved: 3 2 S M[39m
+2023-01-20 00:12:55:1255 [35mhttp[39m: [35m::1 POST /movement 200 233 - 48.801 ms[39m
+[35m[39m
+2023-01-20 00:12:57:1257 [32minfo[39m: [32mMovement saved: 4 2 S M[39m
+2023-01-20 00:12:57:1257 [35mhttp[39m: [35m::1 POST /movement 200 233 - 54.791 ms[39m
+[35m[39m
+2023-01-20 00:12:57:1257 [32minfo[39m: [32mMovement saved: 4 2 S L[39m
+2023-01-20 00:12:57:1257 [35mhttp[39m: [35m::1 POST /movement 200 233 - 58.350 ms[39m
+[35m[39m
+2023-01-20 00:12:58:1258 [32minfo[39m: [32mMovement saved: 4 2 E M[39m
+2023-01-20 00:12:58:1258 [35mhttp[39m: [35m::1 POST /movement 200 233 - 95.397 ms[39m
+[35m[39m
+2023-01-20 00:13:01:131 [32minfo[39m: [32mMovement saved: 4 3 E M[39m
+2023-01-20 00:13:01:131 [35mhttp[39m: [35m::1 POST /movement 200 233 - 57.577 ms[39m
+[35m[39m
+2023-01-20 00:13:04:134 [32minfo[39m: [32mMovement saved: 4 4 E L[39m
+2023-01-20 00:13:04:134 [35mhttp[39m: [35m::1 POST /movement 200 233 - 77.944 ms[39m
+[35m[39m
+2023-01-20 00:13:05:135 [32minfo[39m: [32mMovement saved: 4 4 N M[39m
+2023-01-20 00:13:05:135 [35mhttp[39m: [35m::1 POST /movement 200 233 - 54.552 ms[39m
+[35m[39m
+2023-01-20 00:13:07:137 [32minfo[39m: [32mMovement saved: 3 4 N M[39m
+2023-01-20 00:13:07:137 [35mhttp[39m: [35m::1 POST /movement 200 233 - 54.067 ms[39m
+[35m[39m
+2023-01-20 00:13:08:138 [32minfo[39m: [32mMovement saved: 2 4 N undefined[39m
+2023-01-20 00:13:08:138 [35mhttp[39m: [35m::1 POST /movement 200 212 - 66.160 ms[39m
+[35m[39m
+2023-01-20 00:13:22:1322 [32minfo[39m: [32mMovement saved: 2 4 N L[39m
+2023-01-20 00:13:22:1322 [35mhttp[39m: [35m::1 POST /movement 200 233 - 57.483 ms[39m
+[35m[39m
+2023-01-20 00:13:23:1323 [32minfo[39m: [32mMovement saved: 2 4 W M[39m
+2023-01-20 00:13:23:1323 [35mhttp[39m: [35m::1 POST /movement 200 233 - 56.467 ms[39m
+[35m[39m
+2023-01-20 00:13:26:1326 [32minfo[39m: [32mMovement saved: 2 3 W M[39m
+2023-01-20 00:13:26:1326 [35mhttp[39m: [35m::1 POST /movement 200 233 - 55.713 ms[39m
+[35m[39m
+2023-01-20 00:13:30:1330 [32minfo[39m: [32mMovement saved: 2 2 W undefined[39m
+2023-01-20 00:13:30:1330 [35mhttp[39m: [35m::1 POST /movement 200 212 - 53.385 ms[39m
+[35m[39m

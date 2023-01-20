@@ -1,0 +1,27 @@
+<%- include('head', {title: title}); %>
+<div class="panel col-centralize">
+    <a href="/" id="home-icon"><span class="material-symbols-outlined">home</span></a>
+    <div class="panel-inst">
+        <div>
+            <label for="comando">Comando:</label>
+            <input type="text" name="comando" id="comando">
+        </div>
+        <button id="comandoSubmit">Enviar</button>
+    </div>
+    <br>
+    <div class="panel-inst">
+        <div>
+            <label for="inicial">Posição inicial:</label>
+            <input type="text" name="inicial" id="inicial">
+        </div>
+        <button id="inicialSubmit">Enviar</button>
+    </div>
+</div>
+<br>
+<div id="grid" style="grid-template: repeat(<%= largura %>, 1fr) / repeat(<%= comprimento %>, 1fr)">
+    <% for (let i = 0; i < comprimento*largura; i++) { %>
+        <div class="child"></div>
+    <% } %>
+</div>
+<img src="./assets/images/rover.png" alt="rover" class="rover">
+<%- include('tail', {scripts: scripts}); %>

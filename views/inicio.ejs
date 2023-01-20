@@ -1,0 +1,28 @@
+<%- include('head', {title: title}); %>
+<div class="container instrucoes">
+    <h1>Regras</h1>
+    <div>
+        <p>Algumas informações para conseguir controlar seu astromóvel:
+            <ul>
+                <li>Utilize L para girar no sentido anti-horário;</li>
+                <li>Utilize R para girar no sentido horário;</li>
+                <li>Utilize M para mover para frente;</li>
+                <li>O tamanho máximo de comprimento e largura do grid é de 15 espaços;</li>
+                <li>Defina a posição com a posição do astromóvel e a direção para qual está apontado (N, E, S, W). Ex: 1 2 N;</li>
+                <li>Os comandos de movimentação devem estar em um formato como o seguinte: LMMLRMLRRM.</li>
+            </ul>
+        </p>
+    </div>
+    <div class="col-centralize">
+        <div class="col-centralize">
+            <label for="comprimento">Comprimento:</label>
+            <input type="number" name="comprimento" id="comprimento" min="1" max="15" step="1" value="5">
+        </div>
+        <div class="col-centralize">
+            <label for="largura">Largura:</label>
+            <input type="number" name="largura" id="largura" min="1" max="15" step="1" value="5">
+        </div>
+    </div>
+    <button class="iniciar big-button" id="iniciar-button">Iniciar</button>
+</div>
+<%- include('tail', {scripts: scripts}); %>

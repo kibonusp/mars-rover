@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+@font-face {
+    font-family: Bison Bold;
+    src: url('./assets/fonts/Bison-Bold\(PersonalUse\).ttf');
+}
+
+:root {
+    --border: 1px solid rgba(245, 245, 245, 0.541);
+}
+
+html, 
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.col-centralize {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+body {
+    margin: 0;
+    background-image: url('./assets//images/night-sky.jpg');
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    color: whitesmoke;
+    overflow: hidden;
+    font-family: "Open Sans", sans-serif;
+    position: fixed;
+}
+
+#marte {
+    position: absolute;
+    width: 650px;
+    bottom: calc(-325px + -100px);
+    z-index: -1;
+}
+
+.container {
+    position: absolute;
+    margin: 0 auto;
+}
+
+.about {
+    text-align: center;
+}
+
+.about h1 {
+    font-family: 'Bison Bold';
+    margin: 0em;
+    font-size: 4rem;
+}
+
+.big-button {
+    padding: 0.75em 2.5em;
+    border-radius: 15px;
+    border: none;
+    background-color: rgba(255, 255, 255, 1);
+    color: rgb(7, 3, 54);
+    font-size: 1.1rem;
+}
+
+.continuar {
+    margin-top: 1em;
+}
+
+.continuar:hover {
+    background-color: #c1440e;
+    color: whitesmoke;
+}
+
+.continuar:active {
+    background-color: #e1642e;
+    color: whitesmoke;
+}
+
+@media screen and (min-width: 768px) {
+    #marte {
+        width: 800px;
+        bottom: calc(-400px + -150px);
+    }
+
+    .continuar {
+        padding: 1em 3em;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #marte {
+        width: 950px;
+        bottom: calc(-470px + -210px);
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #marte {
+        width: 1000px;
+        bottom: calc(-500px + -250px);
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    #marte {
+        width: 1500px;
+        bottom: calc(-750px + -450px);
+    }
+    .continuar {
+        padding: 1.25em 3.5em;
+    }
+}
+
+.instrucoes {
+    background-color: whitesmoke;
+    color: black;
+    border-radius: 25px;
+    font-weight: 600;
+    max-width: 25em;
+    width: 90%;
+    min-width: 18em;
+    min-height: 32em;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.instrucoes p {
+    margin: 0;
+    text-align: center;
+}
+
+.instrucoes h1 {
+    margin: 0;
+    margin-bottom: 0.5em;
+    font-size: 1.3rem;
+}
+
+.instrucoes p, .instrucoes li {
+    font-size: 0.8rem;
+}
+
+.instrucoes ul {
+    margin: 0em;
+    padding-right: 1em;
+}
+
+.instrucoes li {
+    min-width: 25ch;
+    text-align: justify;
+}
+
+.instrucoes li:not(:last-child) { 
+    margin-bottom: 4px;  
+}
+
+.iniciar {
+    background-color: #c1440e;
+    color: white;
+    padding: 1em 3em;
+    font-size: 1.1rem;
+}
+
+.iniciar:hover {
+    background-color: black;
+}
+
+.iniciar:active {
+    background-color: rgba(0, 0, 0, 0.82);
+}
+
+.instrucoes input {
+    width: 7em;
+    border-radius: 15px;
+    outline: none;
+    border: 1px solid black;
+    font-family: 'Open Sans';
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .instrucoes {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .instrucoes {
+        font-size: 1rem;
+        padding: 0em 1em;
+    }
+}
+
+#grid {
+    display: grid;
+    width: 90%;
+    height: 90%;
+    background-image: url('https://media.istockphoto.com/id/488156684/photo/alien-planet-with-craters-4.jpg?b=1&s=170667a&w=0&k=20&c=0YRjM4t9hKBM17wlf8nunyPDJyBhqkqgxXcb00Kbdhs=');
+    background-size: cover;
+    object-fit: cover;
+    border: var(--border);
+    margin-bottom: 2em;
+}
+
+.child {
+    background-color: #a79f9c36;
+    border: var(--border);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rover {
+    position: absolute;
+}
+
+.panel {
+    margin: 0em 1em;
+    margin-top: 1em;
+}
+
+.panel input {
+    border-radius: 15px;
+}
+
+.panel-inst {
+    display: flex;
+}
+
+.panel-inst button {
+    margin-left: 1em;
+}
+
+@media screen and (max-width: 370px) {
+    .panel-inst {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .panel-inst button {
+        width: 50%;
+    }
+}
+
+#home-icon {
+    position: relative;
+    top: 5%;
+    left: 5%;
+    color: whitesmoke;
+}
+
+#home-icon span {
+    font-size: 2rem;
+    margin-bottom: 0.5em;
+}
