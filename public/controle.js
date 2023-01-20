@@ -217,7 +217,6 @@ window.onresize = () => {
 };
 
 inicialButton.addEventListener('click', () => {
-    console.log('oi')
     if (! /^[0-9]+ [0-9]+ (N|S|W|E)$/.test(inicialInput.value)) {
         alert("Give instruction such as 1 2 N. Direction options are N, E, S and W.")
         return
