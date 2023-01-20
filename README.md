@@ -26,6 +26,7 @@ Project developed using the following technologies:
 * EJS
 * AdminJS
 * MongoDB
+* Morgan/Winston
 
 ## Deploy
 
